@@ -1,105 +1,179 @@
 :root {
-    --first-color: #7400B8;
-    --second-color: #5E60CE;
-    --background-color: linear-gradient(20deg, rgba(36,89,153,1) 0%, rgba(83,144,217,1) 60%, rgba(115,173,242,1) 100%);
-    --nav-bg-color: rgb(0, 0, 0, 0.5);
-    --thrid-color: #6930C3;
-    --fourth-color: #4EA8DE;
-    --fifth-color: #48BFE3;
-    --sixth-color: #56CFE1;
-    --seventh-color: #64DFDF;
-    --eighth-color: #72EFDD;
-    --ninth-color: #80FFDB;
-    --text-color: rgb(23, 23, 23);
-    --desc-bg: #eaf4f4;
+  --first-color: #7400b8;
+  --second-color: #5e60ce;
+  --text-color: rgb(23, 23, 23);
+  --background-color: linear-gradient(
+    20deg,
+    rgba(36, 89, 153, 1) 0%,
+    rgba(83, 144, 217, 1) 60%,
+    rgba(115, 173, 242, 1) 100%
+  );
+  --nav-bg-color: rgb(0, 0, 0, 0.5);
+  --nav-text-color: #ebebeb;
+  --desc-bg: #eaf4f4;
+  --thrid-color: #6930c3;
+  --fourth-color: #4ea8de;
+  --fifth-color: #48bfe3;
+  --sixth-color: #56cfe1;
+  --seventh-color: #64dfdf;
+  --eighth-color: #72efdd;
 }
 
 body {
-    background: var(--background-color);
+  background: var(--background-color);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+body::-webkit-scrollbar {
+  display: none;
 }
 
 /* Navbar */
 
 nav {
-    display: flex;
-    padding: 0px 20%;
-    height: 6vh;
-    width: 100vw;
-    background: var(--nav-bg-color);
-    align-items: center;
-    justify-content: space-between;
+  display: flex;
+  padding: 0px 20%;
+  height: 6vh;
+  width: 100vw;
+  background: var(--nav-bg-color);
+  justify-content: space-between;
+  align-items: center;
 }
 
 nav > .logo {
-    display: flex;
-    align-items: center;
-    justify-content: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 nav > .logo > img {
-    width: 100px;
+  width: 100px;
+}
+
+nav > .options > a {
+  text-decoration: none;
+  color: var(--nav-text-color);
 }
 
 /* Main */
 
 main {
-    display: flex;
-    height: 94vh;
-    width: 100vw;
-    padding: 20px 10%;
-    justify-content: space-between;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  width: 100vw;
+  height: 194vh;
+  padding: 20px 10%;
 }
 
+/* Intro */
+
 main > .intro {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    margin: 20px 0px;
-    
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin: 20px 0px;
 }
 
 /* Picture */
 
-main > .main > .picture {
-    display: flex;
-    width: 50%;
-    height: 100%;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
+main > .intro > .picture {
+  display: flex;
+  width: 50%;
+  height: 100%;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }
 
-main > .main > .picture > img {
-    width: 80%;
+main > .intro > .picture > img {
+  width: 80%;
 }
 
 /* Description */
 
-main > .main > .description {
-    display: flex;
-    width: 50%;
-    padding: 25px;
-    border-radius: 15px;
-    flex-direction: column;
-    justify-content: center;
-    background-color: var(--desc-bg);
+main > .intro > .description {
+  display: flex;
+  width: 50%;
+  padding: 25px;
+  border-radius: 15px;
+  flex-direction: column;
+  justify-content: center;
+  background-color: var(--desc-bg);
 }
 
-main > .main > .description > .title {
-    display: flex;    
-    margin: 20px 0px;
+main > .intro > .description > .title {
+  display: flex;
+  margin: 20px 0px;
 }
 
-main > .main > .description > .title > h1 {
-    font-size: 35px;
+main > .intro > .description > .title > h1 {
+  font-size: 35px;
 }
 
-main > .main > .description > .par {
-    display: flex;
+main > .intro > .description > .par {
+  display: flex;
 }
 
-main > .main > .description > .par > p {
-    font-size: 20px;
+main > .intro > .description > .par > p {
+  font-size: 20px;
 }
 
+/* Offers */
+
+section.offers {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 20px 0px;
+}
+
+section.offers > .title,
+.description,
+.check {
+  margin-top: 10px;
+}
+
+section.offers > .title {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 20px 0px;
+  height: 60%;
+}
+
+section.offers > .title > h1 {
+  font-size: 35px;
+}
+
+section.offers > .offers {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+  gap: 30px;
+}
+
+section.offers > .offers > .offer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  flex: 1;
+  height: 100%;
+  padding: 20px;
+  border-radius: 15px;
+  background-color: var(--desc-bg);
+}
+
+section.offers > .offers > .offer > .title {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
