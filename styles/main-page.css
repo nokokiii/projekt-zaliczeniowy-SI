@@ -50,7 +50,7 @@ main {
     justify-content: space-between;
 }
 
-main > .main {
+main > .intro {
     display: flex;
     flex-direction: row;
     justify-content: center;
