@@ -42,7 +42,7 @@ main {
 
 /* Sing up */
 
-.sing-up {
+.sing-in {
     display: flex;
     flex-direction: column;
     background: var(--input-bg);
@@ -52,7 +52,7 @@ main {
     border-radius: 10px;  
 }
 
-.sing-up > .title {
+.sing-in > .title {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -60,93 +60,14 @@ main {
     margin: 20px 0px;
 }
 
-.sing-up > .title > h1 {
+.sing-in > .title > h1 {
     font-size: 35px;
     margin-bottom: 10px;
 }
 
-.sing-up > .title > h2 {
+.sing-in > .title > h2 {
     font-size: 15px;
     color:rgb(63, 63, 63)
-}
-
-/* Inputs */
-
-.input {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 100%;
-    height: 50px;
-}
-
-.inputs > div {
-    display: flex;
-    flex-direction: row;
-    width: 100%;
-}
-
-.inputs > div > input {
-    flex: 3;
-    margin: 0px 10px;
-    border-radius: 10px;
-    border-color: #d4d9d9;
-    border-width: 1px;
-    height: 30px;
-    padding: 15px 10px;
-}
-
-.inputs > div > input:focus {
-    outline-color: var(--second-color);
-}
-
-.submit {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 100%;
-    height: 50px;
-    margin: 10px 0px;
-}
-
-.submit > button {
-    width: 100%;
-    height: 100%;
-    background-color: var(--sixth-color);
-    color: var(--text-color);
-    font-size: 20px;
-    border-radius: 8px;
-    box-shadow: 0px 0px 8px -1px rgba(0, 0, 0, 1);
-    border: none;
-}
-
-.submit > button:hover {
-    background-color: var(--fourth-color);
-    cursor: pointer;
-}
-
-.submit > button:active {
-    transform: scale(0.989);
-}
-
-/* Terms and privacy */
-
-.terms {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin: 10px 0px;
-}
-
-.terms > h3 {
-    font-size: 15px;
-    color: rgb(63, 63, 63);
-    margin: 5px 0px;
-}
-
-.terms > a {
-    text-decoration: none;
-    color: var(--second-color);
 }
 
 /* Forgot password */

@@ -1,0 +1,57 @@
+:root {
+  --nav-bg-color: rgb(0, 0, 0, 0.7);
+  --nav-text-color: #ebebeb;
+  --eighth-color: #72EFDD;
+}
+
+
+nav {
+    position: fixed;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: var(--nav-bg-color);
+    padding: 0px 20%;
+    height: 8vh;
+    width: 100vw;
+    top: 0;
+  }
+    
+  nav > .logo > img {
+    width: 100px;
+  }
+
+  nav > .options {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 30%;
+  }
+  
+  nav > .options > a {
+    text-decoration: none;
+    color: var(--nav-text-color);
+  }
+
+  nav > .options > a:hover {
+    transform: scale(1.1);
+  }
+
+  nav > .options > a:active {
+    transform: scale(0.99);
+  }
+
+  nav > .options > button {
+    background: var(--eighth-color);
+    border-radius: 5px;
+    border: none;
+    padding: 10px 15px;
+  }
+
+  nav > .options > button:hover {
+    transform: scale(1.1);
+  }
+
+  nav > .options > button:active {
+    transform: scale(0.99);
+  }
