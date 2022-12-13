@@ -14,13 +14,6 @@
     box-sizing: border-box;
 }
 
-body {
-    background: url(../assets/background.png);
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-}
-
 .middle {
     display: flex;
     justify-content: center;
