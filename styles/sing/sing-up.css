@@ -1,84 +1,83 @@
 :root {
-    --second-color: #5E60CE;
-    --background-color: #5390D9;
-    --fourth-color: #4EA8DE;
-    --sixth-color: #56CFE1;
-    --text-color: rgb(23, 23, 23);
-    --tip-color: #ef233c;
-    --input-bg: #eaf4f4;
+  --second-color: #5e60ce;
+  --background-color: #5390d9;
+  --fourth-color: #4ea8de;
+  --sixth-color: #56cfe1;
+  --text-color: rgb(23, 23, 23);
+  --tip-color: #ef233c;
+  --input-bg: #eaf4f4;
 }
 
 main {
-    display: flex;
-    height: 100vh;
-    width: 100vw;
-    flex-direction: column;
-    background: var(--background-color);
-    justify-content: center;
-    align-items: center;
-
+  display: flex;
+  height: 100vh;
+  width: 100vw;
+  flex-direction: column;
+  background: var(--background-color);
+  justify-content: center;
+  align-items: center;
 }
 
 /* Profile */
 
 .profile {
-    align-self: center;
-    margin: 20px 0px 5px;
+  align-self: center;
+  margin: 20px 0px 5px;
 }
 
 .profile > img {
-    width: 200px;
-    height: 200px;
-    border-radius: 50%;
-    background-color: var(--background-color);
-    box-shadow: 0px 0px 12px 1px rgba(0, 0, 0, 1);
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  background-color: var(--background-color);
+  box-shadow: 0px 0px 12px 1px rgba(0, 0, 0, 1);
 }
 
 /* Sing up */
 
 .sing-up {
-    display: flex;
-    flex-direction: column;
-    background: var(--input-bg);
-    padding: 10px;
-    width: 500px;
-    box-shadow: 0px 0px 27px 1px rgba(0, 0, 0, 1);
-    border-radius: 10px;  
+  display: flex;
+  flex-direction: column;
+  background: var(--input-bg);
+  padding: 10px;
+  width: 500px;
+  box-shadow: 0px 0px 27px 1px rgba(0, 0, 0, 1);
+  border-radius: 10px;
 }
 
 .sing-up > .title {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    margin: 20px 0px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 20px 0px;
 }
 
 .sing-up > .title > h1 {
-    font-size: 35px;
-    margin-bottom: 10px;
+  font-size: 35px;
+  margin-bottom: 10px;
 }
 
 .sing-up > .title > h2 {
-    font-size: 15px;
-    color:rgb(63, 63, 63)
+  font-size: 15px;
+  color: rgb(63, 63, 63);
 }
 
 /* If someone have account */
 
 .have-account {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin: 5px 0px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 5px 0px;
 }
 
 .have-account > h3 {
-    font-size: 15px;
-    color: rgb(63, 63, 63);
+  font-size: 15px;
+  color: rgb(63, 63, 63);
 }
 
 .have-account > a {
-    color: var(--second-color);
-    text-decoration: none;
+  color: var(--second-color);
+  text-decoration: none;
 }

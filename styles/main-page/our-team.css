@@ -1,84 +1,84 @@
 :root {
-    --first-color: #7400b8;
-    --second-color: #5e60ce;
-    --text-color: rgb(23, 23, 23);
-    --background-color: linear-gradient(
-      20deg,
-      rgba(36, 89, 153, 1) 0%,
-      rgba(83, 144, 217, 1) 60%,
-      rgba(115, 173, 242, 1) 100%);
-    --nav-bg-color: rgb(0, 0, 0, 0.5);
-    --nav-text-color: #ebebeb;
-    --desc-bg: #eaf4f4;
-    --thrid-color: #6930c3;
-    --fourth-color: #4ea8de;
-    --fifth-color: #48bfe3;
-    --sixth-color: #56cfe1;
-    --seventh-color: #64dfdf;
-    --eighth-color: #72efdd; 
-  }
+  --first-color: #7400b8;
+  --second-color: #5e60ce;
+  --text-color: rgb(23, 23, 23);
+  --background-color: linear-gradient(
+    20deg,
+    rgba(36, 89, 153, 1) 0%,
+    rgba(83, 144, 217, 1) 60%,
+    rgba(115, 173, 242, 1) 100%
+  );
+  --nav-bg-color: rgb(0, 0, 0, 0.5);
+  --nav-text-color: #ebebeb;
+  --desc-bg: #eaf4f4;
+  --thrid-color: #6930c3;
+  --fourth-color: #4ea8de;
+  --fifth-color: #48bfe3;
+  --sixth-color: #56cfe1;
+  --seventh-color: #64dfdf;
+  --eighth-color: #72efdd;
+}
 
 section#our-team {
-    flex-direction: column;
-    margin: 20px 0px;
+  flex-direction: column;
+  margin: 20px 0px;
 }
 
 section#our-team > .title {
-    margin: 20px 0px;
-    height: 60%;
+  margin: 20px 0px;
+  height: 60%;
 }
 
 section#our-team > .title > h1 {
-    font-size: 35px;
+  font-size: 35px;
 }
 
 section#our-team > .team {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: center;
-    width: 100%;
-    height: 100%;
-    gap: 30px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+  gap: 30px;
 }
 
 section#our-team > .team > .member {
-    flex-direction: column;
-    flex: 1;
-    height: 100%;
-    padding: 20px;
-    border-radius: 15px;
-    background-color: var(--desc-bg);
+  flex-direction: column;
+  flex: 1;
+  height: 100%;
+  padding: 20px;
+  border-radius: 15px;
+  background-color: var(--desc-bg);
 }
 
 section#our-team > .team > .member > .image {
-    width: 100%;
-    height: 100%;
-    border-radius: 50%;
-    background-color: var(--second-color);
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  background-color: var(--second-color);
 }
 
 section#our-team > .team > .member > .image > img {
-    width: 100%;
-    height: 100%;
-    border-radius: 50%;
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
 }
 
 section#our-team > .team > .member > .name {
-    margin-top: 10px;
-    font-size: 20px;
-    font-weight: 600;
+  margin-top: 10px;
+  font-size: 20px;
+  font-weight: 600;
 }
 
 section#our-team > .team > .member > .position {
-    margin-top: 10px;
-    font-size: 15px;
-    font-weight: 400;
+  margin-top: 10px;
+  font-size: 15px;
+  font-weight: 400;
 }
 
 section#our-team > .team > .member > .description {
-    margin-top: 10px;
-    font-size: 15px;
-    font-weight: 400;
+  margin-top: 10px;
+  font-size: 15px;
+  font-weight: 400;
 }
-

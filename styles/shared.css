@@ -1,44 +1,40 @@
-@import url('https://fonts.googleapis.com/css2?family=Libre+Franklin&family=Merriweather&family=Oswald&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Libre+Franklin&family=Merriweather&family=Oswald&display=swap");
 
 /* BODY */
 
 :root {
-    --heading-font: 'Merriweather', serif;
-    --body-font: 'Libre Franklin', sans-serif;
-    --info-font: 'Oswald', sans-serif;
+  --heading-font: "Merriweather", serif;
+  --body-font: "Libre Franklin", sans-serif;
+  --info-font: "Oswald", sans-serif;
 }
 
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
 .middle {
-    display: flex;
-    justify-content: center;
-    align-items: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 /* TEXT */
 
 .heading-text {
-    font-family: var(--heading-font);
-    font-weight: 700;
-    color: #000;
+  font-family: var(--heading-font);
+  font-weight: 700;
+  color: #000;
 }
 
 .info-text {
-    font-family: var(--body-font);
-    font-weight: 700;
+  font-family: var(--body-font);
+  font-weight: 700;
 }
 
 .body-text {
-    font-family: var(--body-font);
-    font-weight: 400;
-    color: #000;
+  font-family: var(--body-font);
+  font-weight: 400;
+  color: #000;
 }
-
-
-
-

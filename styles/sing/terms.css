@@ -1,17 +1,17 @@
 .terms {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin: 10px 0px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 10px 0px;
 }
 
 .terms > h3 {
-    font-size: 15px;
-    color: rgb(63, 63, 63);
-    margin: 10px 0px;
+  font-size: 15px;
+  color: rgb(63, 63, 63);
+  margin: 10px 0px;
 }
 
 .terms > a {
-    text-decoration: none;
-    color: var(--second-color);
+  text-decoration: none;
+  color: var(--second-color);
 }
