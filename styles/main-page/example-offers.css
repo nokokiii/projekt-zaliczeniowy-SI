@@ -18,27 +18,27 @@
   --eighth-color: #72efdd; 
 }
 
-section#offers {
+section#example-offers {
     flex-direction: column;
     margin: 20px 0px;
   }
   
-  section#offers > .title,
+  section#example-offers > .title,
   .description,
   .check {
     margin-top: 10px;
   }
   
-  section#offers > .title {
+  section#example-offers > .title {
     margin: 20px 0px;
     height: 60%;
   }
   
-  section#offers > .title > h1 {
+  section#example-offers > .title > h1 {
     font-size: 35px;
   }
   
-  section#offers > .offers {
+  section#example-offers > .offers {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -48,7 +48,7 @@ section#offers {
     gap: 30px;
   }
   
-  section#offers > .offers > .offer {
+  section#example-offers > .offers > .offer {
     flex-direction: column;
     flex: 1;
     height: 100%;
@@ -57,6 +57,3 @@ section#offers {
     background-color: var(--desc-bg);
   }
   
-  section#offers > .offers > .course-logo {
-    width: 100px;
-  }
