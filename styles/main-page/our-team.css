@@ -22,6 +22,7 @@
 section#our-team {
   flex-direction: column;
   margin: 20px 0px;
+  height: 100vh;
 }
 
 section#our-team > .title {

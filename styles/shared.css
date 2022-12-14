@@ -14,6 +14,10 @@
   box-sizing: border-box;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 .middle {
   display: flex;
   justify-content: center;

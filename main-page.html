@@ -5,24 +5,28 @@
     <!-- Styles -->
     <link rel="stylesheet" href="./styles/shared.css" />
     <link rel="stylesheet" href="./styles/main-page/main-page.css" />
-    <link rel="stylesheet" href="./styles/main-page/introduction.css">
-    <link rel="stylesheet" href="./styles/main-page/example-offers.css">
-    <link rel="stylesheet" href="./styles/main-page/navbar.css">
-    <link rel="stylesheet" href="./styles/main-page/our-team.css">
+    <link rel="stylesheet" href="./styles/main-page/introduction.css" />
+    <link rel="stylesheet" href="./styles/main-page/example-offers.css" />
+    <link rel="stylesheet" href="./styles/main-page/navbar.css" />
+    <link rel="stylesheet" href="./styles/main-page/our-team.css" />
+    <link rel="stylesheet" href="./styles/main-page/about-us.css" />
+    <link rel="stylesheet" href="./styles/main-page/offers.css" />
+    <link rel="stylesheet" href="./styles/main-page/footer.css">
   </head>
 
   <body>
-
     <!-- Navbar -->
     <nav>
       <div class="logo middle">
-        <img src="./assets/logo.png" alt="Logo" />
+        <a href="#intro"><img src="./assets/logo.png" alt="Logo" /></a>
       </div>
       <div class="options">
-        <a href="#" class="info-text">Our Team</a>
-        <a href="#" class="info-text">About us</a>
-        <a href="#" class="info-text">Offers</a>
-        <button class="info-text" onclick="location.href='./sign-in.html'">Sign in</button>
+        <a href="#our-team" class="info-text">Our Team</a>
+        <a href="#offers" class="info-text">About us</a>
+        <a href="#about-us" class="info-text">Offers</a>
+        <button class="info-text" onclick="location.href='./sign-in.html'">
+          Sign in
+        </button>
       </div>
     </nav>
 
@@ -50,67 +54,91 @@
         </div>
       </section>
 
-
       <!-- Example Offers -->
       <section id="example-offers" class="middle">
         <div class="title middle">
           <h1 class="heading-text">Featured Courses</h1>
         </div>
         <div class="offers">
+          <!-- Example Offer 1 -->
           <div class="offer middle">
             <div class="title middle">
               <h2 class="heading-text">Advanced Python Programming</h2>
             </div>
             <div class="description body-text">
               <p>
-                This advanced Python course is designed to give students a thorough understanding 
-                of the Python programming language. Through a series of lectures and hands-on exercises, 
-                participants will learn how to use Python to solve real-world problems and develop their 
-                own applications. By the end of the course, students will have a solid foundation in Python 
-                and be able to apply their skills to a wide range of projects.
+                This advanced Python course is designed to give students a
+                thorough understanding of the Python programming language.
+                Through a series of lectures and hands-on exercises,
+                participants will learn how to use Python to solve real-world
+                problems and develop their own applications. By the end of the
+                course, students will have a solid foundation in Python and be
+                able to apply their skills to a wide range of projects.
               </p>
             </div>
-            <div class="chech">
-              <button>Go check</button>
+            <div class="buying">
+              <div class="price">
+                <h3 class="heading-text">Price: 100$</h3>
+              </div>
+              <div class="chech">
+                <button>Go check</button>
+              </div>
             </div>
           </div>
+          <!-- Example Offer 2 -->
           <div class="offer middle">
             <div class="title middle">
               <h2 class="heading-text">Introduction to HTML and CSS</h2>
             </div>
             <div class="description body-text">
               <p>
-                This beginner's HTML and CSS course is designed to introduce students to the fundamental 
-                concepts of web development. Through a series of lectures and hands-on exercises, participants 
-                will learn how to create and style their own web pages using HTML and CSS. By the end of the course, 
-                students will have a solid understanding of HTML and CSS and be able to build their own simple websites. 
-                This course is perfect for those with no previous experience in web development.
+                This beginner's HTML and CSS course is designed to introduce
+                students to the fundamental concepts of web development. Through
+                a series of lectures and hands-on exercises, participants will
+                learn how to create and style their own web pages using HTML and
+                CSS. By the end of the course, students will have a solid
+                understanding of HTML and CSS and be able to build their own
+                simple websites. This course is perfect for those with no
+                previous experience in web development.
               </p>
             </div>
-            <div class="check">
+            <div class="buying">
+              <div class="price">
+                <h3 class="heading-text">Price: 100$</h3>
+              </div>
+              <div class="chech">
                 <button>Go check</button>
+              </div>
             </div>
           </div>
+          <!-- Example Offer 3 -->
           <div class="offer middle">
             <div class="title middle">
               <h2 class="heading-text">JavaScript for Beginners</h2>
             </div>
             <div class="description body-text">
               <p>
-                This beginner's JavaScript course is designed to introduce students to the fundamentals of the JavaScript
-                programming language. Through a series of lectures and hands-on exercises, participants will learn how to
-                create interactive web applications using JavaScript. By the end of the course, students will have a solid
-                understanding of JavaScript and be able to write their own simple programs. This course is perfect for those
-                with no previous experience in programming.              
+                This beginner's JavaScript course is designed to introduce
+                students to the fundamentals of the JavaScript programming
+                language. Through a series of lectures and hands-on exercises,
+                participants will learn how to create interactive web
+                applications using JavaScript. By the end of the course,
+                students will have a solid understanding of JavaScript and be
+                able to write their own simple programs. This course is perfect
+                for those with no previous experience in programming.
               </p>
             </div>
-            <div class="check">
+            <div class="buying">
+              <div class="price">
+                <h3 class="heading-text">Price: 100$</h3>
+              </div>
+              <div class="chech">
                 <button>Go check</button>
+              </div>
             </div>
           </div>
         </div>
       </section>
-
 
       <!-- Our Team -->
       <section id="our-team" class="middle">
@@ -169,60 +197,191 @@
         </div>
       </section>
 
-      
       <!-- Offers  -->
       <section id="offers" class="middle">
         <div class="title middle">
           <h1 class="heading-text">Our Offers</h1>
         </div>
         <div class="offers">
+          <!-- Offer 1 -->
           <div class="offer middle">
             <div class="title middle">
               <h2 class="heading-text">Advanced Python Programming</h2>
             </div>
             <div class="description body-text">
               <p>
-                This advanced Python course is designed to give students a thorough understanding 
-                of the Python programming language. Through a series of lectures and hands-on exercises, 
-                participants will learn how to use Python to solve real-world problems and develop their 
-                own applications. By the end of the course, students will have a solid foundation in Python 
-                and be able to apply their skills to a wide range of projects.
+                This advanced Python course is designed to give students a
+                thorough understanding of the Python programming language.
+                Through a series of lectures and hands-on exercises,
+                participants will learn how to use Python to solve real-world
+                problems and develop their own applications. By the end of the
+                course, students will have a solid foundation in Python and be
+                able to apply their skills to a wide range of projects.
               </p>
             </div>
-            <div class="chech">
-              <button>Go check</button>
+            <div class="buying">
+              <div class="price">
+                <h3 class="heading-text">Price: 100$</h3>
+              </div>
+              <div class="chech">
+                <button>Go check</button>
+              </div>
             </div>
           </div>
+          <!-- Offer 2 -->
           <div class="offer middle">
             <div class="title middle">
               <h2 class="heading-text">Introduction to HTML and CSS</h2>
             </div>
             <div class="description body-text">
               <p>
-                This beginner's HTML and CSS course is designed to introduce students to the fundamental 
-                concepts of web development. Through a series of lectures and hands-on exercises, participants 
-                will learn how to create and style their own web pages using HTML and CSS. By the end of the course, 
-                students will have a solid understanding of HTML and CSS and be able to build their own simple websites. 
-                This course is perfect for those with no previous experience in web development.
+                This beginner's HTML and CSS course is designed to introduce
+                students to the fundamental concepts of web development. Through
+                a series of lectures and hands-on exercises, participants will
+                learn how to create and style their own web pages using HTML and
+                CSS. By the end of the course, students will have a solid
+                understanding of HTML and CSS and be able to build their own
+                simple websites. This course is perfect for those with no
+                previous experience in web development.
               </p>
             </div>
-            <div class="check">
+            <div class="buying">
+              <div class="price">
+                <h3 class="heading-text">Price: 100$</h3>
+              </div>
+              <div class="chech">
                 <button>Go check</button>
+              </div>
             </div>
           </div>
+          <!-- Offer 3 -->
           <div class="offer middle">
             <div class="title middle">
               <h2 class="heading-text">JavaScript for Beginners</h2>
             </div>
             <div class="description body-text">
               <p>
-                This beginner's JavaScript course is designed to introduce students to the fundamentals of the JavaScript
-                programming language. Through a series of lectures and hands-on exercises, participants will learn how to
-                create interactive web applications using JavaScript. By the end of the course, students will have a solid
-                understanding of JavaScript and be able to write their own
+                This beginner's JavaScript course is designed to introduce
+                students to the fundamentals of the JavaScript programming
+                language. Through a series of lectures and hands-on exercises,
+                participants will learn how to create interactive web
+                applications using JavaScript. By the end of the course,
+                students will have a solid understanding of JavaScript and be
+                able to write their own
               </p>
             </div>
+            <div class="buying">
+              <div class="price">
+                <h3 class="heading-text">Price: 100$</h3>
+              </div>
+              <div class="chech">
+                <button>Go check</button>
+              </div>
+            </div>
+          </div>
+          <!-- Offer 4 -->
+          <div class="offer middle">
+            <div class="title middle">
+              <h2 class="heading-text">JavaScript for Beginners</h2>
+            </div>
+            <div class="description body-text">
+              <p>
+                This beginner's JavaScript course is designed to introduce
+                students to the fundamentals of the JavaScript programming
+                language. Through a series of lectures and hands-on exercises,
+                participants will learn how to create interactive web
+                applications using JavaScript. By the end of the course,
+                students will have a solid understanding of JavaScript and be
+                able to write their own
+              </p>
+            </div>
+            <div class="buying">
+              <div class="price">
+                <h3 class="heading-text">Price: 100$</h3>
+              </div>
+              <div class="chech">
+                <button>Go check</button>
+              </div>
+            </div>
+          </div>
+          <!-- Offer 5 -->
+          <div class="offer middle">
+            <div class="title middle">
+              <h2 class="heading-text">JavaScript for Beginners</h2>
+            </div>
+            <div class="description body-text">
+              <p>
+                This beginner's JavaScript course is designed to introduce
+                students to the fundamentals of the JavaScript programming
+                language. Through a series of lectures and hands-on exercises,
+                participants will learn how to create interactive web
+                applications using JavaScript. By the end of the course,
+                students will have a solid understanding of JavaScript and be
+                able to write their own
+              </p>
+            </div>
+            <div class="buying">
+              <div class="price">
+                <h3 class="heading-text">Price: 100$</h3>
+              </div>
+              <div class="chech">
+                <button>Go check</button>
+              </div>
+            </div>
+          </div>
+          <!-- Offer 6 -->
+          <div class="offer middle">
+            <div class="title middle">
+              <h2 class="heading-text">JavaScript for Beginners</h2>
+            </div>
+            <div class="description body-text">
+              <p>
+                This beginner's JavaScript course is designed to introduce
+                students to the fundamentals of the JavaScript programming
+                language. Through a series of lectures and hands-on exercises,
+                participants will learn how to create interactive web
+                applications using JavaScript. By the end of the course,
+                students will have a solid understanding of JavaScript and be
+                able to write their own
+              </p>
+            </div>
+            <div class="buying">
+              <div class="price">
+                <h3 class="heading-text">Price: 100$</h3>
+              </div>
+              <div class="chech">
+                <button>Go check</button>
+              </div>
+            </div>
+          </div>
+        </div>
       </section>
+
+      <!-- About us -->
+      <section id="about-us" class="middle">
+        <div class="title middle">
+          <h1 class="heading-text">About Us</h1>
+        </div>
+        <div class="description body-text">
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas
+            deserunt veritatis blanditiis culpa unde quia, ipsa nisi magni omnis
+            eligendi numquam vitae doloribus, non odio quisquam beatae
+            voluptate! Deleniti, ullam.
+          </p>
+        </div>
+      </section>
+
+      <!-- Footer -->
+      <footer>
+        <div class="social-media">
+          <h2>Social Media</h2>
+        </div>
+        <div class="copyright">
+          <h2>Copyrights</h2>
+        </div>
+      </footer>
     </main>
+    <script src="scrolling.js"></script>
   </body>
 </html>
