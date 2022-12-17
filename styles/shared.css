@@ -29,7 +29,6 @@ html {
 .heading-text {
   font-family: var(--heading-font);
   font-weight: 700;
-  color: #000;
 }
 
 .info-text {
@@ -40,5 +39,4 @@ html {
 .body-text {
   font-family: var(--body-font);
   font-weight: 400;
-  color: #000;
 }

@@ -21,8 +21,8 @@
 
 main > .intro {
   flex-direction: row;
-  margin: 20px 0px;
-  height: 100vh;
+  margin: 35vh 0 20vh;
+  height: auto;
 }
 
 /* Picture */
@@ -51,7 +51,7 @@ main > .intro > .description {
 
 main > .intro > .description > .title {
   display: flex;
-  margin: 20px 0px;
+  margin: 0 0 20px;
 }
 
 main > .intro > .description > .title > h1 {

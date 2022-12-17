@@ -1,30 +1,19 @@
-:root {
-  --text-color: rgb(23, 23, 23);
-  --background-color: linear-gradient(
-    20deg,
-    rgba(36, 89, 153, 1) 0%,
-    rgba(83, 144, 217, 1) 60%,
-    rgba(115, 173, 242, 1) 100%
-  );
-  --nav-bg-color: rgb(0, 0, 0, 0.5);
-  --nav-text-color: #ebebeb;
-  --desc-bg: #eaf4f4;
-}
-
 section#example-offers {
+  display: flex;
   flex-direction: column;
-  margin: 20px 0px;
-  height: 100vh;
+  justify-content: center;
+  align-items: center;
+  margin: 5% 0px;
 }
 
 section#example-offers > .title {
-  margin: 20px 0px;
-  height: 60%;
+  flex-direction: row;
+  margin: 5vh 0px;
 }
 
 section#example-offers > .title > h1 {
   font-size: 35px;
-  color: var(--text-color);
+  color: rgb(23, 23, 23);
 }
 
 section#example-offers > .offers {
@@ -33,26 +22,39 @@ section#example-offers > .offers {
   justify-content: space-between;
   align-items: center;
   width: 100%;
-  height: 100%;
-  gap: 30px;
+  gap: 6vh;
 }
 
 section#example-offers > .offers > .offer {
-  flex-direction: column;
-  flex: 1;
   display: flex;
-  height: 52vh;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  flex: 1;
+  height: 45vh;
   padding: 20px;
   border-radius: 15px;
   background-color: var(--desc-bg);
 }
 
+section#example-offers > .offers > .offer > .title {
+  flex: 1;
+  width: 100%;
+}
+
+section#example-offers > .offers > .offer > .description {
+  flex: 1;
+}
+
+section#example-offers > .offers > .offer > .description > p {
+  font-size: 18px;
+}
+
 section#example-offers > .offers > .offer > .buying {
+  flex: 1;
   display: flex;
-  justify-self: flex-end;
   flex-direction: row;
-  justify-content: space-between;
+  justify-content: space-around;
   align-items: center;
   width: 100%;
-  height: 100%;
 }
