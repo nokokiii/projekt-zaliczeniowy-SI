@@ -40,3 +40,18 @@ html {
   font-family: var(--body-font);
   font-weight: 400;
 }
+
+.box {
+  border-radius: 15px;
+  background: rgba(255, 255, 255, 0.6);
+  backdrop-filter: blur(3px);
+  border: 1px solid rgba(255, 255, 255, 0.18);
+  box-shadow: 0px 0px 36px 0px rgba(66, 68, 90, 1);
+}
+
+.section-column {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  padding: 10vh 0;
+} 

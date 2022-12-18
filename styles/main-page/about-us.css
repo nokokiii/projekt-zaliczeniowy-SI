@@ -20,7 +20,26 @@
 }
 
 section#about-us {
+  display: flex;
   flex-direction: column;
-  margin: 20px 0px;
-  height: 100vh;
+  gap: 5vh;
+}
+
+section#about-us > .title > h1 {
+  font-size: 35px;
+  color: var(--text-color);
+}
+
+section#about-us > .about-us-content {
+  padding: 1.5vw;
+  margin: 0 10vw
+}
+
+section#about-us > .about-us-content > .title {
+  margin-bottom: 2%;
+}
+
+section#about-us > .about-us-content > .title > h2 {
+  font-size: 24px;
+  color: var(--text-color);
 }

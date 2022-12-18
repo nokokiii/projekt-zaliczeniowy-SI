@@ -1,14 +1,5 @@
-section#example-offers {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  margin: 5% 0px;
-}
-
 section#example-offers > .title {
-  flex-direction: row;
-  margin: 5vh 0px;
+  margin: 0 0 5vh;
 }
 
 section#example-offers > .title > h1 {
@@ -31,10 +22,8 @@ section#example-offers > .offers > .offer {
   justify-content: space-between;
   align-items: center;
   flex: 1;
-  height: 45vh;
+  height: 50vh;
   padding: 20px;
-  border-radius: 15px;
-  background-color: var(--desc-bg);
 }
 
 section#example-offers > .offers > .offer > .title {
@@ -47,7 +36,7 @@ section#example-offers > .offers > .offer > .description {
 }
 
 section#example-offers > .offers > .offer > .description > p {
-  font-size: 18px;
+  font-size: 16px;
 }
 
 section#example-offers > .offers > .offer > .buying {
