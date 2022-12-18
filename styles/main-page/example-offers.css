@@ -47,3 +47,26 @@ section#example-offers > .offers > .offer > .buying {
   align-items: center;
   width: 100%;
 }
+
+section#example-offers > .offers > .offer > .buying > .price {
+  font-size: 15px;
+  font-weight: bold;
+}
+
+section#example-offers > .offers > .offer > .buying > .check > button {
+  background: #7472ef;
+  padding: 10px 15px;
+  border-radius: 5px;
+  border: none;
+  color: #ebebeb;
+}
+
+
+section#example-offers > .offers > .offer > .buying > .check > button:hover {
+  transform: scale(1.1);
+  cursor: pointer;
+} 
+ 
+section#example-offers > .offers > .offer > .buying > .check > button:active {
+  transform: scale(0.99);
+}

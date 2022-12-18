@@ -1,7 +1,7 @@
 :root {
   --nav-bg-color: rgb(0, 0, 0, 0.7);
   --nav-text-color: #ebebeb;
-  --bg-color: #72efdd;
+  --bg-color: #7472ef;
 }
 
 nav {
@@ -47,6 +47,7 @@ nav > .options > button {
   border-radius: 5px;
   border: none;
   padding: 10px 15px;
+  color: #ebebeb;
 }
 
 nav > .options > button:hover {
