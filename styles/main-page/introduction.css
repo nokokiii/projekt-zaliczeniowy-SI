@@ -1,24 +1,3 @@
-:root {
-  --first-color: #7400b8;
-  --second-color: #5e60ce;
-  --text-color: rgb(23, 23, 23);
-  --background-color: linear-gradient(
-    20deg,
-    rgba(36, 89, 153, 1) 0%,
-    rgba(83, 144, 217, 1) 60%,
-    rgba(115, 173, 242, 1) 100%
-  );
-  --nav-bg-color: rgb(0, 0, 0, 0.5);
-  --nav-text-color: #ebebeb;
-  --desc-bg: #eaf4f4;
-  --thrid-color: #6930c3;
-  --fourth-color: #4ea8de;
-  --fifth-color: #48bfe3;
-  --sixth-color: #56cfe1;
-  --seventh-color: #64dfdf;
-  --eighth-color: #72efdd;
-}
-
 main > .intro {
   flex-direction: row;
   margin: 30vh 0 20vh;

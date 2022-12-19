@@ -1,15 +1,4 @@
 body {
-  background: url(../../assets/background.png);
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-}
-
-body::-webkit-scrollbar {
-  display: none;
-}
-
-body {
   background: url(../../assets/subtle-prism.svg);
   background-size: cover;
   background-repeat: no-repeat;
@@ -17,6 +6,9 @@ body {
   overflow-x: hidden;
 }
 
+body::-webkit-scrollbar {
+  display: none;
+}
 
 main {
   display: flex;

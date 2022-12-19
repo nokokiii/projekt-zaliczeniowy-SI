@@ -1,6 +1,10 @@
+:root {
+  --link-color: rgb(242, 242, 242);
+  --bg-color: #333;
+}
+
 footer {
-  background-color: #333;
-  color: #fff;
+  background-color: var(--bg-color);
   padding: 20px 0;
   width: 100%;
   position: relative;
@@ -44,8 +48,12 @@ footer > .container > .right-side {
 }
   
 footer > .container > .right-side > .footer-links > a {
-  color: #fff;
+  color: var(--link-color);
   text-decoration: none;
+}
+
+footer > .container > .right-side > .copyright > p {
+  color: var(--link-color);
 }
 
 footer > .container >  .right-side > .copyright {

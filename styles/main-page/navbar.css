@@ -1,7 +1,7 @@
 :root {
   --nav-bg-color: rgb(0, 0, 0, 0.7);
   --nav-text-color: #ebebeb;
-  --bg-color: #7472ef;
+  --btn-bg-color: #7472ef;
 }
 
 nav {
@@ -58,11 +58,11 @@ nav > .options > a:active {
 }
 
 nav > .options > button {
-  background: var(--bg-color);
+  background: var(--btn-bg-color);
   border-radius: 5px;
   border: none;
   padding: 10px 15px;
-  color: #ebebeb;
+  color: var(--nav-text-color);
 }
 
 nav > .options > button:hover {

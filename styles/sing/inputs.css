@@ -1,7 +1,15 @@
+:root {
+  --text-color: rgb(23, 23, 23);
+  --tip-color: #ef233c;
+  --border-color: #d4d9d9;
+  --input-bg: #eaf4f4;
+  --outline-color: #5e60ce;
+  --btn-bg-color: #56cfe1;
+  --btn-bg-color-hover: #5ed7e6;
+  --background-color: #5390d9;
+}
+
 .input {
-  display: flex;
-  justify-content: center;
-  align-items: center;
   width: 100%;
   height: 50px;
 }
@@ -16,7 +24,7 @@
   flex: 3;
   margin: 0px 10px;
   border-radius: 10px;
-  border-color: #d4d9d9;
+  border-color: var(--border-color);
   border-width: 1px;
   height: 30px;
   padding: 15px 10px;
@@ -28,7 +36,7 @@
 }
 
 .inputs > div > input:focus {
-  outline-color: var(--second-color);
+  outline-color: var(--outline-color);
 }
 
 .tip {
@@ -38,9 +46,6 @@
 }
 
 .submit {
-  display: flex;
-  justify-content: center;
-  align-items: center;
   width: 100%;
   height: 50px;
   margin: 15px 0px;
@@ -49,7 +54,7 @@
 .submit > button {
   width: 60%;
   height: 100%;
-  background-color: var(--sixth-color);
+  background-color: var(--btn-bg-color);
   color: var(--text-color);
   font-size: 20px;
   border-radius: 8px;
@@ -58,7 +63,7 @@
 }
 
 .submit > button:hover {
-  background-color: var(--fourth-color);
+  background-color: var(--btn-bg-color-hover);
   transform: scale(1.05);
   cursor: pointer;
 }
