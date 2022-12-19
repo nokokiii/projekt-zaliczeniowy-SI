@@ -28,7 +28,13 @@ footer > .container > .left-side > a > img {
   height: 30px;
 }
 
+footer > .container > .left-side > a > img:hover {
+  transform: scale(1.1);
+}
 
+footer > .container > .left-side > a > img:active {
+  transform: scale(0.99);
+}
 
 footer > .container > .right-side {
   display: flex;
